@@ -24,7 +24,7 @@ spec:
       runAfter:
         - run-unit-tests
       taskRef:
-        name: build-task-name # e.g., buildah or kaniko
+        name: buildah
       workspaces:
         - name: source
           workspace: shared-workspace
